@@ -6,7 +6,7 @@
 </head>
 <body style="justify-content: center; display: flex; align-items: center; font-size: 50px">
 <ul>
-  <li><a href="list">Customer List</a></li>
+  <li><a href="productList">Product List</a></li>
 </ul>
 </body>
 </html>
