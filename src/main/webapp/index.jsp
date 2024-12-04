@@ -24,6 +24,7 @@
   <li><a href="documentList">Document List</a></li>
   <li><a href="appointmentList">Appointment List</a></li>
   <li><a href="petList">Pet List</a></li>
+  <li><a href="scholarshipList">Scholarship List</a></li>
 </ul>
 </body>
 </html>
