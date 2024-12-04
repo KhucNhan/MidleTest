@@ -18,6 +18,7 @@
   <li><a href="courseList">Course List</a></li>
   <li><a href="attendanceRecordList">Attendance Record List</a></li>
   <li><a href="eventList">Event List</a></li>
+  <li><a href="voteList">Vote List</a></li>
   <li><a href="carList">Car List</a></li>
   <li><a href="leaveRequestList">Leave Request List</a></li>
   <li><a href="patientList">Patient List</a></li>
