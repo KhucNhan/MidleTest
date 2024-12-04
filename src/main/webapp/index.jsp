@@ -16,6 +16,7 @@
   <li><a href="cartItemList">Cart Item List</a></li>
   <li><a href="tourList">Tour List</a></li>
   <li><a href="courseList">Course List</a></li>
+  <li><a href="attendanceRecordList">Attendance Record List</a></li>
 </ul>
 </body>
 </html>
