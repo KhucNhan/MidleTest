@@ -11,6 +11,7 @@
   <li><a href="studentList">Student List</a></li>
   <li><a href="bookList">Book List</a></li>
   <li><a href="employeeList">Employee List</a></li>
+  <li><a href="ticketList">Ticket List</a></li>
 </ul>
 </body>
 </html>
