@@ -20,7 +20,6 @@ public class ProductListServlet extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
         request.setAttribute("productList", products);
-
         request.getRequestDispatcher("ProductList.jsp").forward(request,response);
     }
 }
