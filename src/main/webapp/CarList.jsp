@@ -9,16 +9,16 @@
 <table border="1px">
     <tr>
         <td>Name</td>
+        <td>Manufacturer</td>
         <td>Price</td>
-        <td>Description</td>
-        <td>Picture</td>
+        <td>Status</td>
     </tr>
-    <c:forEach items="${productList}" var="product">
+    <c:forEach items="${carList}" var="car">
         <tr>
-            <td>${product.name}</td>
-            <td><fmt:formatNumber value="${product.price}" type="number" groupingUsed="true" /> VND</td>
-            <td>${product.description}</td>
-            <td><img width="200px" height="300px" src="${product.image}" alt="${product.image}"></td>
+            <td>${car.name}</td>
+            <td>${car.manufacturer}</td>
+            <td><fmt:formatNumber value="${car.price}" type="number" groupingUsed="true" /> VND</td>
+            <td>${car.status ? 'In stock' : 'Out of stock'}</td>
         </tr>
     </c:forEach>
 </table>

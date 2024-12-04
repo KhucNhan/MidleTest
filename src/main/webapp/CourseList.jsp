@@ -9,16 +9,16 @@
 <table border="1px">
     <tr>
         <td>Name</td>
+        <td>Teacher</td>
+        <td>Hours</td>
         <td>Price</td>
-        <td>Description</td>
-        <td>Picture</td>
     </tr>
-    <c:forEach items="${productList}" var="product">
+    <c:forEach items="${courseList}" var="course">
         <tr>
-            <td>${product.name}</td>
-            <td><fmt:formatNumber value="${product.price}" type="number" groupingUsed="true" /> VND</td>
-            <td>${product.description}</td>
-            <td><img width="200px" height="300px" src="${product.image}" alt="${product.image}"></td>
+            <td>${course.name}</td>
+            <td>${course.teacher}</td>
+            <td>${course.hours}</td>
+            <td><fmt:formatNumber value="${course.price}" type="number" groupingUsed="true" /> VND</td>
         </tr>
     </c:forEach>
 </table>

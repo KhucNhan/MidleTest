@@ -8,17 +8,17 @@
 <body>
 <table border="1px">
     <tr>
+        <td>ID</td>
         <td>Name</td>
+        <td>Slot</td>
         <td>Price</td>
-        <td>Description</td>
-        <td>Picture</td>
     </tr>
-    <c:forEach items="${productList}" var="product">
+    <c:forEach items="${ticketList}" var="ticket">
         <tr>
-            <td>${product.name}</td>
-            <td><fmt:formatNumber value="${product.price}" type="number" groupingUsed="true" /> VND</td>
-            <td>${product.description}</td>
-            <td><img width="200px" height="300px" src="${product.image}" alt="${product.image}"></td>
+            <td>${ticket.id}</td>
+            <td>${ticket.name}</td>
+            <td>${ticket.slot}</td>
+            <td><fmt:formatNumber value="${ticket.price}" type="number" groupingUsed="true" /> VND</td>
         </tr>
     </c:forEach>
 </table>
