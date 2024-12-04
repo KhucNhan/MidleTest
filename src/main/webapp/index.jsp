@@ -14,6 +14,7 @@
   <li><a href="ticketList">Ticket List</a></li>
   <li><a href="bankAccountList">Bank Account List</a></li>
   <li><a href="cartItemList">Cart Item List</a></li>
+  <li><a href="tourList">Tour List</a></li>
 </ul>
 </body>
 </html>
