@@ -12,6 +12,7 @@
   <li><a href="bookList">Book List</a></li>
   <li><a href="employeeList">Employee List</a></li>
   <li><a href="ticketList">Ticket List</a></li>
+  <li><a href="bankAccountList">Bank Account List</a></li>
 </ul>
 </body>
 </html>
