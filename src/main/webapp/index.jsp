@@ -19,6 +19,7 @@
   <li><a href="attendanceRecordList">Attendance Record List</a></li>
   <li><a href="eventList">Event List</a></li>
   <li><a href="carList">Car List</a></li>
+  <li><a href="leaveRequestList">Leave Request List</a></li>
 </ul>
 </body>
 </html>
