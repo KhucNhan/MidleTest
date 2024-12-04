@@ -8,10 +8,10 @@
 <body>
 <table border="1px">
     <tr>
-        <td>Ten</td>
-        <td>Gia</td>
-        <td>Mo ta</td>
-        <td>Anh</td>
+        <td>Name</td>
+        <td>Price</td>
+        <td>Description</td>
+        <td>Picture</td>
     </tr>
     <c:forEach items="${productList}" var="product">
         <tr>
