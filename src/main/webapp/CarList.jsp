@@ -9,9 +9,9 @@
 <table border="1px">
     <tr>
         <td>Name</td>
+        <td>Manufacturer</td>
         <td>Price</td>
-        <td>Description</td>
-        <td>Picture</td>
+        <td>Status</td>
     </tr>
     <c:forEach items="${carList}" var="car">
         <tr>
