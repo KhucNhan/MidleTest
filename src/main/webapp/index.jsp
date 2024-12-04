@@ -22,6 +22,7 @@
   <li><a href="leaveRequestList">Leave Request List</a></li>
   <li><a href="patientList">Patient List</a></li>
   <li><a href="documentList">Document List</a></li>
+  <li><a href="appointmentList">Appointment List</a></li>
 </ul>
 </body>
 </html>
